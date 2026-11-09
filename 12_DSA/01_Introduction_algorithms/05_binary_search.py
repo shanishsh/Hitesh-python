@@ -1,5 +1,5 @@
 def binary_search(arr, st, end, target):
-    if st>end:
+    if st>=end:
         return -1
     
     mid = (st + end) // 2
@@ -14,4 +14,4 @@ def binary_search(arr, st, end, target):
  
  
 l1=[1,30,40,100,300,550,650,2200]
-print(binary_search(l1,1,8,40))
+print(binary_search(l1,1,8,1000))
